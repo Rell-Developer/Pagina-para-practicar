@@ -1,0 +1,115 @@
+*{margin: 0; /*Reset*/
+padding:0;}
+
+body{background-color: rgb(243,243,243);} /*Fondo a color*/
+
+header, p, form /*Modificando el entorno*/
+{
+	width: 90%;
+	margin: 20px auto;
+	max-width: 1000px;
+}
+
+header /*Modificando el header a la derecha y muchas cosas mas*/
+{
+	background: aqua;
+	margin-left: 700px;
+	height: 320px;
+	padding: 15px;
+	padding-top: 200px;	
+	padding-left: 25px;
+	font-size: 20px;
+	border-radius: 15px;
+	border: 1px solid rgb(214,214,214);
+	box-shadow: 0px 3px 3px gray;
+	width: 47%;
+}
+
+form /*modificando el formulario hacia la derecha y muchas cosas mas*/
+{
+	background: white;
+	padding: 10px;
+	margin: 15px auto;
+	margin-top: 30px;
+	margin-left: 20px;
+	margin-bottom: 40px;
+	width: 40%;
+	box-shadow: 0px 5px 5px gray;
+	border-radius: 15px;
+	border: 1px solid rgb(214,214,214);
+	height: 470px;
+	float:left;
+	clear:both;
+}
+
+label /*Modificando la fuente y la anchura y dandole un margen*/
+{
+	font-size: 18px;
+	padding:10px;
+	width:100%;
+	margin:15px;
+}
+
+select[name="Pais"] /*Marcando una separacion del boton de registrarse con el seleccionar pais*/
+{
+	margin-bottom: 22px;
+}
+
+input /*Modificando los inputs añadiendoles margenes, bordes, que sean en bloque y que se ajusten a la caja*/
+{
+	display:block;
+	margin-top: 5px;
+	margin-bottom: 30px;
+	margin-left: 12px;
+	padding: 10px;
+	box-sizing: border-box;
+	border: 1px solid rgb(204,204,204)
+}
+
+.Iniciarsesion /*Modificando el iniciar sesion y poniendolo abajo del formulario*/
+{
+	clear: both;
+	background: white;
+	border: 1px solid rgb(214,214,214);
+	padding: 10px;
+	margin:10px auto;
+	margin-left: 150px;
+	width: 20%;
+	text-align: center;
+	border-radius: 15px;
+	box-shadow: 0px 4px 4px gray;
+}
+
+.Regresar /*Modificando el boton de regresar*/
+{
+	background: white;
+	padding: 15px;
+	margin-top: 3px;
+	margin-left: 22px;
+	float:left;
+	border-radius: 15px;
+	border: 1px solid rgb(214,214,214);
+	box-shadow: 0px 3px 3px gray;
+	text-decoration: none;
+	color:black;
+}
+
+.Regresar:hover /*Animando el boton de regresar*/
+{
+	cursor:pointer;
+	background-color: rgb(214,214,214);
+	box-shadow: none;
+}
+
+input[type="submit"] /*Añadiendo color al boton de registrarse*/
+{
+	background-color: #1668C4;
+	border:none;
+	color: white;
+}
+
+input[type="submit"]:hover /*Animacion al pasar el cursor por el boton*/
+{
+	background-color: #4A88F4;
+	cursor: pointer;
+}
