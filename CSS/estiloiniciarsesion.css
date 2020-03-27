@@ -2,7 +2,9 @@
 padding:0;}
 
 body /*Colorear fondo*/
-{background-color: rgb(243,243,243);}
+{/*background-color: rgb(243,243,243);*/
+ background-image: linear-gradient(aqua, rgb(243,243,243));
+height: 731px;}
 
 header, p, form /*centrar y ajustar la pagina*/
 {
@@ -15,12 +17,14 @@ header, p, form /*centrar y ajustar la pagina*/
 header /*Modificando la cabezera*/
 {
 	width: 30%;
-	background-color: white;
+	background-image: linear-gradient(#1df032, #c8ebd2);
 	border-radius: 15px;
 	padding: 5px 5px 5px 5px;
 	margin: 28px auto;
-	border: 2px solid rgb(214,214,214);
+	border: 2px solid rgb(70,70,70);
 	box-shadow: 0px 3px 3px gray;
+	color: white;
+	text-shadow: black 2px 2px 1px;
 }
 
 label /*Modificando la fuente y dejandolos como bloques*/
@@ -36,7 +40,7 @@ form /*Modificando el formulario*/
 	border: 1px solid rgb(214,214,214);
 	border-radius: 15px;
 	margin: 5px auto;
-	box-shadow: 0px 5px 5px gray;
+	box-shadow: 0px 5px 5px rgb(70,70,70);
 	width:50%;
 	height: 380px;
 }
@@ -54,12 +58,13 @@ input /*Modificando los inputs, añadiendo una anchura y bordes*/
 {
 	margin: 15px auto;
 	margin-top: 40px;
-	background-color: #ff8000;
+	background-image: linear-gradient(#243eff, #5d57ff);
 	border-radius: 8px;
 	padding: 10px;
 	width: 50%;
 	color: white;
 	border: 1px solid rgb(100,100,100);
+	text-shadow: black 2px 2px 1px;
 }
 
 input[type="submit"] /*Coloreando y dandole vida al boton de enviar*/
@@ -84,7 +89,7 @@ input[type="submit"]:hover /*Dandole animacion al boton*/
 	border: 1px solid rgb(214,214,214);
 	width: 25%;
 	border-radius: 15px;
-	box-shadow: 0px 4px 4px gray;
+	box-shadow: 0px 4px 4px rgb(70,70,70);
 }
 
 .regresar /*Modificando el regresar*/
@@ -99,7 +104,7 @@ input[type="submit"]:hover /*Dandole animacion al boton*/
 	border-radius: 15px;
 	text-decoration: none;
 	color: black;
-	box-shadow: 0px 3px 3px gray;
+	box-shadow: 0px 3px 3px rgb(70,70,70);
 }
 
 .regresar:hover /*dandole una animacion al apuntar*/

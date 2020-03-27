@@ -6,7 +6,8 @@
 
 body /*Fondo a color*/
 {
-	background-color: #e6e6e6;
+	background-image: linear-gradient(#e3e3e3,white);
+	height: 739px;
 }
 
 header, .main, footer /*Margen de separacion, anchura y maxima anchura*/

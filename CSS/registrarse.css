@@ -1,7 +1,7 @@
 *{margin: 0; /*Reset*/
 padding:0;}
 
-body{background-color: rgb(243,243,243);} /*Fondo a color*/
+body{background-image: linear-gradient(#99c5ff, #1466ff);} /*Fondo a color*/
 
 header, p, form /*Modificando el entorno*/
 {
@@ -12,7 +12,7 @@ header, p, form /*Modificando el entorno*/
 
 header /*Modificando el header a la derecha y muchas cosas mas*/
 {
-	background: aqua;
+	background-image: linear-gradient(#03e6cf,#9ef0e0);
 	margin-left: 700px;
 	height: 320px;
 	padding: 15px;
@@ -20,9 +20,10 @@ header /*Modificando el header a la derecha y muchas cosas mas*/
 	padding-left: 25px;
 	font-size: 20px;
 	border-radius: 15px;
-	border: 1px solid rgb(214,214,214);
-	box-shadow: 0px 3px 3px gray;
+	border: 1px solid #03e6cf;
+	box-shadow: 0px 3px 3px rgb(70,70,70);
 	width: 47%;
+	text-shadow: white 1px 1px 1px;
 }
 
 form /*modificando el formulario hacia la derecha y muchas cosas mas*/
@@ -34,7 +35,7 @@ form /*modificando el formulario hacia la derecha y muchas cosas mas*/
 	margin-left: 20px;
 	margin-bottom: 40px;
 	width: 40%;
-	box-shadow: 0px 5px 5px gray;
+	box-shadow: 0px 5px 5px rgb(70,70,70);
 	border-radius: 15px;
 	border: 1px solid rgb(214,214,214);
 	height: 470px;
@@ -69,15 +70,23 @@ input /*Modificando los inputs añadiendoles margenes, bordes, que sean en bloqu
 .Iniciarsesion /*Modificando el iniciar sesion y poniendolo abajo del formulario*/
 {
 	clear: both;
-	background: white;
-	border: 1px solid rgb(214,214,214);
+	background-image: linear-gradient(#3a04ff, #9169ff);
+	border: 1px solid #3a04ff;
 	padding: 10px;
 	margin:10px auto;
 	margin-left: 150px;
 	width: 20%;
 	text-align: center;
 	border-radius: 15px;
-	box-shadow: 0px 4px 4px gray;
+	box-shadow: 0px 4px 4px rgb(70,70,70);
+	color: white;
+	text-shadow: rgb(70,70,70) 2px 2px 2px;
+}
+
+.Iniciarsesion a
+{
+	text-decoration: none;
+	color: white;
 }
 
 .Regresar /*Modificando el boton de regresar*/
@@ -89,7 +98,7 @@ input /*Modificando los inputs añadiendoles margenes, bordes, que sean en bloqu
 	float:left;
 	border-radius: 15px;
 	border: 1px solid rgb(214,214,214);
-	box-shadow: 0px 3px 3px gray;
+	box-shadow: 0px 3px 3px rgb(70,70,70);
 	text-decoration: none;
 	color:black;
 }

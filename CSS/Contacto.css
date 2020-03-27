@@ -1,0 +1,90 @@
+*{margin:0;
+padding:0;}
+
+body
+{
+	background-image: linear-gradient(#e3e3e3,white);
+}
+
+header, .main, footer 
+{
+	width: 90%;
+	max-width: 1000px;
+	margin: 15px auto;
+}
+
+header nav
+{
+	background-color: #528FD5;
+	overflow: hidden;
+}
+
+header nav ul
+{
+	list-style: none;	
+}
+
+header nav ul li
+{
+	float: left;
+}
+
+header nav ul li a
+{
+	text-decoration: none;
+	color: white;
+	display: block;
+	padding: 10px 20px;
+}
+
+header nav ul li a:hover
+{
+	background: #75ACEC;
+}
+
+img
+{
+	margin-bottom: 4px;
+}
+
+.main .Contacto
+{
+	width: 66.5%;
+	float:left;
+	margin: 1.5%; 
+}
+
+.main .Contacto article
+{
+	background-color: white;
+	padding:20px;
+	margin-bottom: 20px;
+}
+
+.main .Contacto article ul
+{
+	list-style: none;
+}
+
+.main .Contacto article ul li
+{
+	margin: 10px auto;
+}
+
+aside
+{
+	width: 30%;
+	background: #ff8000;
+	float: left;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+footer
+{
+	background: black;
+	text-align: center;
+	padding: 10px 0px;
+	clear:both;
+	color: white;
+}
